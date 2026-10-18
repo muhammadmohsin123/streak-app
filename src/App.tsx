@@ -4,7 +4,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Home Page</Link> | <Link to="/about">About</Link> | <Link to="/contact">Contact</Link>
+        <Link to="/">Home Page</Link> | <Link to="/about">About</Link> | <Link to="/contact">Reach us</Link>
       </nav>
       <Routes>
         <Route path="/" element={<h1> {import.meta.env.VITE_APP_NAME} </h1>} />
