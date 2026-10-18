@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 export default function App() {
-  const unusedOnPurpose = 42;
+  const unusedOnPurpose = 46;
   return (
     <BrowserRouter>
       <nav>
